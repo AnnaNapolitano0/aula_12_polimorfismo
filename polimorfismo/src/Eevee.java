@@ -1,4 +1,5 @@
 public class Eevee {
+    
     private String tipo;
     private int altura, HP;
     private double peso;
@@ -45,14 +46,15 @@ public class Eevee {
         HP = hP;
         this.peso = peso;
     }
-
-
-
      //metodo imprimir
      public void imprimir (){
         System.out.println("ataque:" + ataque ()); 
         System.out.println("ataque:" + defesa ()); 
         System.out.println("ataque:" + especial ()); 
+        System.out.println("Altura:" + getAltura ()); 
+        System.out.println("HP:" + getHP ());
+        System.out.println("Peso:" + getPeso ());
+        System.out.println("tipo:" + getTipo ());
         System.out.println("");
     }
 }
