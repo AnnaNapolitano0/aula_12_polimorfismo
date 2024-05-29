@@ -1,7 +1,7 @@
 public class Vaporeon extends Eevee {
 
-    public Vaporeon (String tipo, int altura, int hP, double peso) {
-        super(tipo, altura, hP, peso);
+    public Vaporeon (String nome, String tipo, int altura, int hP, double peso) {
+        super(nome, tipo, altura, hP, peso);
     }
     
     @Override
@@ -16,4 +16,8 @@ public class Vaporeon extends Eevee {
     public String especial(){
         return "Hydro Pump";
     }
+    @Override
+    public String Nome(){
+        return "Vaporeon";
+    }   
 }

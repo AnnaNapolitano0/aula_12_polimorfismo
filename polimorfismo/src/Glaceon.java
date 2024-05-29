@@ -1,7 +1,7 @@
 public class Glaceon extends Eevee{
 
-    public Glaceon (String tipo, int altura, int hP, double peso) {
-        super(tipo, altura, hP, peso);
+    public Glaceon (String nome, String tipo, int altura, int hP, double peso) {
+        super(nome, tipo, altura, hP, peso);
     }
     
     @Override
@@ -16,5 +16,9 @@ public class Glaceon extends Eevee{
     public String especial(){
         return "Ice Beam";
     }
+    @Override
+    public String Nome(){
+        return "Glaceon";
+    }   
     
 }
